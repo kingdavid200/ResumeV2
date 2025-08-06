@@ -22,7 +22,7 @@
     try {
       // Attempt to fetch the JSON from the same directory. When running from
       // the file protocol this may fail due to browser restrictions.
-      const response = await fetch('data.json');
+      const response = await fetch('data.json?v=2');
       if (!response.ok) throw new Error('Failed to load data.json');
       data = await response.json();
     } catch (err) {
