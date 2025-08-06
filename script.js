@@ -1,27 +1,11 @@
-/*
- * script.js
- *
- * This file is responsible for dynamically populating the resume
- * template with data sourced from the data.json file. It also
- * implements interactive features such as the dark mode toggle,
- * animated skill bars, project detail modals and a contact form
- * that submits messages to a simple Java backend.
- */
 
-// Immediately invoked function to avoid polluting the global scope
 (function () {
-  /**
-   * Initialise the page once the DOM has loaded. Fetches the JSON data
-   * and calls subsequent functions to build each section.
-   */
   async function init() {
     applySavedTheme();
     attachThemeToggle();
     attachMenuToggle();
     let data;
     try {
-      // Attempt to fetch the JSON from the same directory. When running from
-      // the file protocol this may fail due to browser restrictions.
       const response = await fetch('data.json?v=2');
       if (!response.ok) throw new Error('Failed to load data.json');
       data = await response.json();
@@ -46,13 +30,6 @@
     attachContactHandler();
     attachModalHandlers();
   }
-
-  /**
-   * Fallback résumé data in case fetching data.json fails (e.g., when
-   * opening the site via the file:// protocol). This data mirrors
-   * the contents of data.json.
-   * @returns {Object} The résumé JSON object
-   */
   function fallbackData() {
     return {
       name: "HARRIS DAVID CHUKWUEBUKA",
@@ -251,9 +228,6 @@
     };
   }
 
-  /**
-   * Apply the saved theme preference from localStorage on initial load.
-   */
   function applySavedTheme() {
     const saved = localStorage.getItem('theme');
     const root = document.documentElement;
@@ -269,9 +243,6 @@
     }
   }
 
-  /**
-   * Attach click listener to the dark mode toggle button.
-   */
   function attachThemeToggle() {
     // Attach click listeners to all elements that toggle dark mode (e.g., sidebar and optional top toggle)
     const toggles = document.querySelectorAll('#darkModeToggle, #sidebarDarkToggle');
