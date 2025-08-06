@@ -60,7 +60,7 @@
       location: "Newport - Gwent, NP19 4AN United Kingdom",
       phone: "+44 7502 246881",
       email: "davidharris200111@gmail.com",
-      website: "https://kingdavid200.github.io/Resume-/",
+      website: "https://kingdavid200.github.io/ResumeV2/",
       summary:
         "I am a driven and enthusiastic Computer Science graduate looking for an opportunity to contribute my expertise in software development, IT services, and analytical thinking. I have a genuine passion for technology and a strong desire to gain real-world experience in a dynamic work setting. Known for being a reliable team player with solid leadership abilities, adaptability, and a forward-thinking mindset. I bring hands-on experience in delivering quality technical support and effectively troubleshooting to maintain smooth IT operations. Resourceful in identifying and resolving both hardware and software problems efficiently. I am skilled in clear communication, especially when translating technical ideas into user-friendly explanations.",
       experience: [
