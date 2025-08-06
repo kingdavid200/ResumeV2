@@ -219,12 +219,24 @@
         "Gain hands-on experience in software, mobile, and web development while enhancing problem-solving and analytical skills.",
         "Develop expertise in AI, machine learning, and emerging technologies to contribute to innovative tech solutions.",
       ],
-      socials: [
-        // Use emoji icons for social links to avoid dependency on external icon fonts
-        { platform: 'GitHub', url: 'https://github.com/kingdavid200', icon: '🐱' },
-        { platform: 'LinkedIn', url: 'https://www.linkedin.com/in/david-harris', icon: '💼' },
-        { platform: 'Twitter', url: 'https://twitter.com/kingdavid200', icon: '🐦' },
-      ],
+     socials: [
+  {
+    platform: 'GitHub',
+    url: 'https://github.com/kingdavid200',
+    icon: '<i class="fab fa-github"></i>',
+  },
+  {
+    platform: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/david-harris',
+    icon: '<i class="fab fa-linkedin"></i>',
+  },
+  {
+    platform: 'Email',
+    url: 'mailto:davidharris200111@gmail.com',
+    icon: '<i class="fas fa-envelope"></i>',
+  },
+],
+
     };
   }
 
