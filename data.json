@@ -131,42 +131,52 @@
     {"title": "Innovating with Intelligence: AI Ethics and Big Data Transparency", "date": "2024‑03‑20"}
   ],
   "projects": [
-    {
-      "title": "File Management System",
-      "description": "A structured system for organizing, storing, and retrieving digital files efficiently.",
-      "technologies": ["Java", "Python", "SQL"]
-    },
-    {
-      "title": "Document Tracking System",
-      "description": "A system designed to monitor, manage, and track the movement and status of documents within an organization.",
-      "technologies": ["PHP", "MySQL", "JavaScript"]
-    },
-    {
-      "title": "Smart Destination Alert System",
-      "description": "A mobile‑based application that provides real‑time alerts to commuters when approaching their designated stop, enhancing travel convenience.",
-      "technologies": ["Android", "Java", "GPS"]
-    },
-    {
-      "title": "Ticket Management System",
-      "description": "A system for handling and tracking support tickets, service requests, or customer issues in an organized manner.",
-      "technologies": ["Java", "Spring Boot", "MySQL"]
-    },
-    {
-      "title": "Arduino Line Tracking Robot Car",
-      "description": "A robotics project utilizing Arduino to build an autonomous car that follows a predefined path using sensors.",
-      "technologies": ["Arduino", "C++"]
-    },
-    {
-      "title": "PC Build",
-      "description": "A custom‑built computer project optimized for performance, gaming, or professional work, tailored to specific needs.",
-      "technologies": ["Hardware", "PC Building"]
-    },
-    {
-      "title": "HTML and PHP‑based Websites",
-      "description": "Dynamic and interactive websites developed using HTML for structure and PHP for backend functionality.",
-      "technologies": ["HTML", "PHP", "CSS", "JavaScript"]
-    }
-  ],
+  {
+    "title": "Cybersecurity Home Lab",
+    "description": "Built and maintained a dedicated home lab environment to apply cybersecurity, networking, and systems administration skills. Managed multiple networked devices and services to replicate professional IT workflows, troubleshoot issues, and test secure configurations.",
+    "technologies": ["Networking", "Cybersecurity", "Virtualization"]
+  },
+  {
+    "title": "Windows Server & Active Directory Setup",
+    "description": "Deployed and configured Windows Server for production-style use, implementing Active Directory, creating and managing user accounts, applying group policies, setting up DNS, and verifying network services. Configured virtual machines with static IP addressing and DNS settings to maintain stable and secure domain connectivity.",
+    "technologies": ["Windows Server", "Active Directory", "DNS"]
+  },
+  {
+    "title": "Smart Destination Alert System",
+    "description": "Designed and developed a mobile-based application that integrates GPS, real-time alerts, offline mode, and fare calculation features. Alerts commuters when approaching their designated stop and includes a route map, fare checker, and nearby station finder for enhanced travel convenience.",
+    "technologies": ["Android", "Java", "GPS", "SQLite"]
+  },
+  {
+    "title": "Ticket Management System",
+    "description": "Built an internal IT helpdesk platform for managing and tracking support tickets. Incorporated features for prioritizing requests, logging resolution times, and maintaining a history of service records for organizational efficiency.",
+    "technologies": ["Java", "Spring Boot", "MySQL"]
+  },
+  {
+    "title": "Document Tracking System",
+    "description": "Created a database-driven application with secure login, user roles, and timestamp tracking to monitor document movement and status within an organization. Designed to improve accountability and streamline workflow.",
+    "technologies": ["PHP", "MySQL", "JavaScript"]
+  },
+  {
+    "title": "File Management System",
+    "description": "Developed a desktop application in NetBeans with MySQL database integration, supporting multiple user logins with role-based access. Included an admin panel for managing files, organizing storage, and retrieving documents efficiently.",
+    "technologies": ["Java", "MySQL", "NetBeans"]
+  },
+  {
+    "title": "HTML, PHP, and Database-Based Projects",
+    "description": "Developed dynamic portfolio websites and Windows applications with admin dashboards and database integration. One notable project was an equipment tracking application with real-time inventory management, user authentication, and role-based access control.",
+    "technologies": ["HTML", "PHP", "CSS", "JavaScript", "MySQL"]
+  },
+  {
+    "title": "Arduino Line Tracking Robot Car",
+    "description": "Engineered a fully functional robot car from scratch using an Arduino board. Integrated sensors for line tracking, obstacle avoidance, and the ability to follow predefined paths or reprogrammed routes.",
+    "technologies": ["Arduino", "C++", "Sensors"]
+  },
+  {
+    "title": "PC Build",
+    "description": "Assembled a high-performance desktop (Rig 1) optimized for gaming, software development, and data analysis. Specifications: ASUS Prime Z270-A motherboard, Intel Core i7-7700, 32GB DDR4 RAM, NVIDIA GTX 1650 GPU, dual SSDs, and NVMe storage.",
+    "technologies": ["Hardware Assembly", "PC Building", "Troubleshooting"]
+  }
+],
   "careerGoals": [
     "Gain hands‑on experience in software, mobile, and web development while enhancing problem‑solving and analytical skills.",
     "Develop expertise in AI, machine learning, and emerging technologies to contribute to innovative tech solutions."
